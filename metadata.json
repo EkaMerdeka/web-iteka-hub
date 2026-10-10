@@ -1,0 +1,6 @@
+{
+  "name": "ITEKA Academic Hub",
+  "description": "One Space for All Your Academic Needs. Personal student management system for managing coursework, documents, presentations, links, class schedules, and deadlines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
