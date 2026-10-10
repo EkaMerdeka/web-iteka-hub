@@ -4,9 +4,11 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.5.0/firebase
 import { getStorage } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-storage.js";
 
 // Kunci akses Firebase Anda
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyD4mMkMbLczZM0Aa7st3hDR8B1mjdY1IlU",
   authDomain: "webacademicmerdeka.firebaseapp.com",
+  databaseURL: "https://webacademicmerdeka-default-rtdb.firebaseio.com",
   projectId: "webacademicmerdeka",
   storageBucket: "webacademicmerdeka.firebasestorage.app",
   messagingSenderId: "476990564451",
