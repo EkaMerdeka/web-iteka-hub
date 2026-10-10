@@ -1,3 +1,5 @@
+import { db } from '../../../firebase-config.js'; 
+import { doc, setDoc } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js";
 import React, { useState } from 'react';
 import {
   User,
